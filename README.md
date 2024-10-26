@@ -1,4 +1,4 @@
-# JC++ Bridge Connect C++ - Java `@bridge`.
+# JC++ Bridge Connect C++ - Java `@Bridge`.
 
 BridgeGenerator is a Java utility designed to automate the generation of JNI (Java Native Interface) bridge code. It scans specified packages for classes containing methods annotated with `@Bridge`, generates corresponding Java files, compiles them, and produces native header files.
 
