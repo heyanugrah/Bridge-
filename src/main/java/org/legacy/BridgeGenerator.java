@@ -72,7 +72,7 @@ public class BridgeGenerator {
                     System.out.println("Class Name: " + clazz.getName());
 
                     String[] classNameParts = clazz.getName().split("\\.");
-                    String outputPackageName = "routines";
+                    String outputPackageName = "compiled.jni";
                     String generatedClassName = capitalizeFirstLetter(classNameParts[2]);
                     String outputFileName = "src/main/java/" + outputPackageName + "/" + generatedClassName + "_" + method.getName() + ".java";
                     String outputFolderPath = "src/main/java/" + outputPackageName + "/";
